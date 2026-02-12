@@ -201,13 +201,5 @@ bars = plt.bar(reductions, alphas, color='steelblue', edgecolor='black', linewid
 for i, (reduction, alpha) in enumerate(zip(reductions, alphas)):
     plt.text(reduction, alpha + 0.02, f'{alpha:.1f}', ha='center', va='bottom', fontsize=12, fontweight='bold')
 
-plt.xlabel('Dimensionality Reduction (%)', fontsize=14)
-plt.ylabel('Best Alpha (α)', fontsize=14)
-plt.title('Best Alpha vs Dimensionality Reduction', fontsize=16, fontweight='bold')
-plt.ylim(0, 1.2)
-plt.grid(True, alpha=0.3, axis='y')
-plt.tight_layout()
-plt.savefig('best_alpha_vs_reduction.png', dpi=300, bbox_inches='tight')
-plt.show()
 
 print("\nExperiment completed successfully!")
