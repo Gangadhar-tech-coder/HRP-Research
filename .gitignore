@@ -1,2 +1,4 @@
 # Ignore datasets folder
 datasets/
+*.csv
+*.arff
