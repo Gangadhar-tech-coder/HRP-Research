@@ -10,7 +10,7 @@ from openpyxl.styles import Font, Alignment, PatternFill, Border, Side
 # ============================================
 # CONFIGURATION
 # ============================================
-DATASET_PATH = "version2/fashion.csv"  # Update this path to your dataset
+DATASET_PATH = "version2/10_x_19k_dataset.csv"  # Update this path to your dataset
 
 # NEW: Ask user for number of samples to use
 print("\n--- Sample Selection ---")
